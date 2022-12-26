@@ -25,7 +25,7 @@ namespace Maveric.CSharpConcept
 
             double result1 = Area.AreaOfTriangle(10.2, 65);
             Console.WriteLine(result1);
-            Datatype.P1();
+            //Datatype.P1();
         }
 
 
