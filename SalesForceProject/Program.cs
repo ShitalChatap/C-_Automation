@@ -1,0 +1,36 @@
+﻿
+
+
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium;
+
+namespace Maveric.Salesforce
+{
+    public class Task4
+    {
+        static void Main(string[] args)
+
+        {
+            IWebDriver driver = new ChromeDriver();
+            
+            driver.Url = "https://www.salesforce.com/in/form/signup/freetrial-sales/";
+            
+
+            driver.FindElement(By.Name("UserFirstName")).SendKeys("John");
+            driver.FindElement(By.Name("UserLastName")).SendKeys("wick");
+
+            driver.FindElement(By.Name("UserEmail")).SendKeys("john@gmail.com");
+            driver.FindElement(By.Name("UserTitle")).SendKeys("IT Manager");
+            driver.FindElement(By.Name("CompanyName")).SendKeys("Maveric");
+            driver.FindElement(By.Name("CompanyEmployees")).SendKeys("101-500 employees");
+            driver.FindElement(By.Name("UserPhone")).SendKeys("");
+            driver.FindElement(By.Name("CompanyCountry")).SendKeys("United Kingdom");
+
+            driver.FindElement(By.ClassName("checkbox-ui")).Click();
+            driver.FindElement(By.Name("start my free trial")).Click();
+
+
+
+        }
+    }
+    }

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement", "SchoolM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{B7A210D5-4977-42D2-8720-7D8DC67FADB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcept", "SeleniumConcept\SeleniumConcept.csproj", "{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceProject", "SalesForceProject\SalesForceProject.csproj", "{B31F426B-EAD9-45D3-8629-733B2A4E9B77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B7A210D5-4977-42D2-8720-7D8DC67FADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7A210D5-4977-42D2-8720-7D8DC67FADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A210D5-4977-42D2-8720-7D8DC67FADB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

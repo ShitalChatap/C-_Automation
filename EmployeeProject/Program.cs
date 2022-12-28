@@ -4,11 +4,11 @@ namespace Maveric.Runner
 {
     public class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
-         Console.WriteLine("*********************EMPLOYEE DASHBORD*******************");
-         Employee.companyName = "Maveric";
-         Employee.companyLocation = "Chennai";
+            Console.WriteLine("*********************EMPLOYEE DASHBORD*******************");
+            Employee.companyName = "Maveric";
+            Employee.companyLocation = "Chennai";
 
             Employee emp1 = new Employee();
             Employee emp2 = new Employee();
@@ -50,7 +50,7 @@ namespace Maveric.Runner
             emp1.PrintEmployeeDetail();
             emp2.PrintEmployeeDetail();
             emp3.PrintEmployeeDetail();
-          //  emp3.PrintEmployeeDetail();
+            //  emp3.PrintEmployeeDetail();
 
 
 

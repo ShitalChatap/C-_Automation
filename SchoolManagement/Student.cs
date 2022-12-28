@@ -24,7 +24,7 @@ namespace SchoolManagement
             Console.WriteLine("Student name: " + studentName);
             Console.WriteLine("Student Mail Id:" + studentMailid);
             Console.WriteLine("Student Percentage: " + studentPercentage);
-            Console.WriteLine("PERCENTAGE  GRADE: "+ PERCENTAGEGRADE);
+            Console.WriteLine("PERCENTAGE  GRADE: " + PERCENTAGEGRADE);
             Console.WriteLine("School Name: " + Student.schoolName);
             Console.WriteLine("School Address: " + Student.schoolAddress);
 
@@ -40,7 +40,7 @@ namespace SchoolManagement
                 Console.WriteLine("You have successfully passed with grade A");
             }
             else
-            if (studentPercentage >= 80 && studentPercentage <=89)
+            if (studentPercentage >= 80 && studentPercentage <= 89)
             {
                 PERCENTAGEGRADE = 'B';
                 Console.WriteLine("You have successfully passed with grade B");
@@ -53,7 +53,7 @@ namespace SchoolManagement
                 Console.WriteLine("You have successfully passed with grade D");
             }
             else
-                if(studentPercentage < 60)
+                if (studentPercentage < 60)
             {
                 PERCENTAGEGRADE = 'D';
                 Console.WriteLine("You have successfully passed with grade C");
@@ -62,11 +62,11 @@ namespace SchoolManagement
             {
                 PERCENTAGEGRADE = 'F';
             }
-            
 
 
 
-            }
+
+        }
 
     }
 }
