@@ -11,10 +11,10 @@ namespace SeleniumConcept
 {
     public class Task1
     {
-       static void Main(string[] args)
+        static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Url ="https://parabank.parasoft.com/parabank/register.htm";//set //navigate to the url 
+            driver.Url = "https://parabank.parasoft.com/parabank/register.htm";//set //navigate to the url 
 
 
             driver.FindElement(By.Id("customer.firstName")).SendKeys("Shital");
