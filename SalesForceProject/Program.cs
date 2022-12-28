@@ -9,9 +9,14 @@ namespace Maveric.Salesforce
         static void Main(string[] args)
 
         {
+
             IWebDriver driver = new ChromeDriver();
 
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(30);
+
             driver.Url = "https://www.salesforce.com/in/form/signup/freetrial-sales/";
+
 
 
             driver.FindElement(By.Name("UserFirstName")).SendKeys("John");
@@ -19,12 +24,11 @@ namespace Maveric.Salesforce
 
             driver.FindElement(By.Name("UserEmail")).SendKeys("john@gmail.com");
             SelectElement dropdown1 = new SelectElement(driver.FindElement(By.Name("UserTitle")));
-            dropdown1.DeselectByText("IT_Manager_AP");
+            dropdown1.SelectByText("IT Manager");
 
 
             driver.FindElement(By.Name("CompanyName")).SendKeys("Maveric");
-            //SelectElement selectEmployee= new SelectElement(driver.FindElement(By.Name("CompanyEmployees")));
-            //selectEmployee.SelectByText("101 - 500 employees");
+
             SelectElement dropdown2 = new SelectElement(driver.FindElement(By.Name("CompanyEmployees")));
             dropdown2.SelectByText("101 - 500 employees");
 
@@ -32,11 +36,11 @@ namespace Maveric.Salesforce
 
             SelectElement dropdown3 = new SelectElement(driver.FindElement(By.Name("CompanyCountry")));
 
-             dropdown3.SelectByText("United Kingdom");
-           
+            dropdown3.SelectByText("United Kingdom");
+
             driver.FindElement(By.ClassName("checkbox-ui")).Click();
             driver.FindElement(By.Name("start my free trial")).Click();
-           // driver.FindElement(By.ClassName("checkbox-ui"
+
 
 
         }
