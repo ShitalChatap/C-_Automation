@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConcept", "CSharpConc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAssignment", "CSharpAssignment\CSharpAssignment.csproj", "{0DCF882E-0CA0-4568-9812-0CC85E362749}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeProject", "EmployeeProject\EmployeeProject.csproj", "{266909F4-FDAE-4484-B82D-DE83707C45FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject", "EmployeeProject\EmployeeProject.csproj", "{266909F4-FDAE-4484-B82D-DE83707C45FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{26299DC6-2E02-462D-A501-58BC4EB01B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement", "SchoolManagement\SchoolManagement.csproj", "{26299DC6-2E02-462D-A501-58BC4EB01B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{B7A210D5-4977-42D2-8720-7D8DC67FADB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{B7A210D5-4977-42D2-8720-7D8DC67FADB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcept", "SeleniumConcept\SeleniumConcept.csproj", "{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumConcept", "SeleniumConcept\SeleniumConcept.csproj", "{086B5D6C-8738-4B5D-AC5D-5D5387CE1887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceProject", "SalesForceProject\SalesForceProject.csproj", "{B31F426B-EAD9-45D3-8629-733B2A4E9B77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesForceProject", "SalesForceProject\SalesForceProject.csproj", "{B31F426B-EAD9-45D3-8629-733B2A4E9B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "synchronization", "synchronization\synchronization.csproj", "{362DE0BC-0428-4D8A-A4F5-A400DC70B2B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31F426B-EAD9-45D3-8629-733B2A4E9B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362DE0BC-0428-4D8A-A4F5-A400DC70B2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362DE0BC-0428-4D8A-A4F5-A400DC70B2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362DE0BC-0428-4D8A-A4F5-A400DC70B2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362DE0BC-0428-4D8A-A4F5-A400DC70B2B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
