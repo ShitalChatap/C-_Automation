@@ -10,13 +10,13 @@
   <ItemGroup>
     <Compile Remove="MediBuddy.cs" />
     <Compile Remove="NassCom.cs" />
-    <Compile Remove="Program.cs" />
+    <Compile Remove="Oracle.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="MediBuddy.cs" />
     <None Include="NassCom.cs" />
-    <None Include="Program.cs" />
+    <None Include="Oracle.cs" />
   </ItemGroup>
 
   <ItemGroup>
